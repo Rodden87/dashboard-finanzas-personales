@@ -48,7 +48,7 @@ export default function TransactionForm({ onAdd }) {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           placeholder="Monto"
-          className="p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600"
         />
 
         <input
@@ -56,7 +56,7 @@ export default function TransactionForm({ onAdd }) {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="Descripción"
-          className="p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600"
         />
 
         <input
@@ -64,13 +64,13 @@ export default function TransactionForm({ onAdd }) {
           value={category}
           onChange={(e) => setCategory(e.target.value)}
           placeholder="Categoría"
-          className="p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600"
         />
       </div>
 
       <button
         type="submit"
-        className="mt-4 bg-violet-600/30 hover:bg-violet-600/50 text-white px-4 py-2 rounded transition"
+        className="mt-4 w-full md:w-auto bg-violet-600/30 hover:bg-violet-600/50 text-white px-4 py-2 rounded transition"
       >
         Agregar transacción
       </button>

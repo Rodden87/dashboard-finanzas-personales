@@ -39,14 +39,14 @@ function App() {
     });
 
   return (
-    <div className="min-h-screen p-6">
-      <h1 className="text-5xl text-violet-600 font-bold mb-4 text-center">
+    <div className="min-h-screen p-6 md:p-12">
+      <h1 className="text-3xl md:text-5xl text-violet-600 font-bold mb-4 text-center">
         Dashboard de Finanzas
       </h1>
       <TransactionForm onAdd={handleAddTransaction} />
       <div className="text-white mb-4 flex flex-col md:flex-row gap-4 items-start md:items-center">
         <CustomSelect
-          className="w-48"
+          className="w-full md:w-48"
           value={filterType}
           onChange={setFilterType}
           options={[
@@ -61,7 +61,7 @@ function App() {
           value={filterCategory}
           onChange={(e) => setFilterCategory(e.target.value)}
           placeholder="Filtrar por categoría"
-          className="p-2 text-center border border-violet-600 rounded hover:border-fuchsia-400"
+          className="w-full md:w-auto p-2 text-center border border-violet-600 rounded hover:border-fuchsia-400"
         />
       </div>
       <SummaryInfo transactions={filteredTransactions} />
