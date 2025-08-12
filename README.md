@@ -19,7 +19,7 @@
 ## 📝 Descripción
 
 **Dashboard de Finanzas Personales** es una aplicación moderna y responsiva para visualización de datos, construida con **Vite**, **React**, **Tailwind CSS** y **Recharts**.  
-Está diseñada para mostrar métricas clave de forma clara e interactiva, ideal para paneles de control de negocios, analytics o reportes.
+Está diseñada para mostrar métricas clave de forma clara e interactiva, ideal para control de gastos personales.
 
 ---
 
