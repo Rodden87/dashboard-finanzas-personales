@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-/* Opcionales: estilos específicos del proyecto */
-
 #root {
   appearance: base-select;
   max-width: 1280px;

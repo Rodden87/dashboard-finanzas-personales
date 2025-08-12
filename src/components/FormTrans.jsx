@@ -21,7 +21,6 @@ export default function TransactionForm({ onAdd }) {
       date: new Date().toISOString(),
     });
 
-    // Limpiar formulario
     setAmount("");
     setDescription("");
     setCategory("");
@@ -34,7 +33,6 @@ export default function TransactionForm({ onAdd }) {
       className="bg-transparent p-4 text-white border-violet-600 rounded-lg shadow mb-6 border hover:border-fuchsia-400"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* Custom Select */}
         <CustomSelect
           className="w-full"
           value={filterType}

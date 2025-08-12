@@ -53,7 +53,7 @@ export default function SummaryChart({ transactions = [] }) {
           />
           <Bar
             dataKey="total"
-            radius={[6, 6, 0, 0]} // bordes superiores redondeados (opcional)
+            radius={[6, 6, 0, 0]}
           >
             {data.map((entry, index) => (
               <Cell

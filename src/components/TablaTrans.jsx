@@ -3,7 +3,6 @@ import { formatearDinero } from "../utils/formato";
 export default function TransactionTable({ transactions, onDelete }) {
   return (
     <div className="bg-transparent p-4 rounded-lg border border-violet-700 hover:border-fuchsia-400 shadow">
-      {/* Vista de tabla en pantallas medianas y grandes */}
       <div className="hidden md:block overflow-x-auto">
         <table className="min-w-full text-center border-collapse">
           <thead>
@@ -39,7 +38,6 @@ export default function TransactionTable({ transactions, onDelete }) {
         </table>
       </div>
 
-      {/* Vista tipo tarjeta en móviles */}
       <div className="space-y-4 md:hidden">
         {transactions.map((t) => (
           <div
