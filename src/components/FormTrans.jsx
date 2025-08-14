@@ -48,7 +48,7 @@ export default function TransactionForm({ onAdd }) {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           placeholder="Monto"
-          className="w-full p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600 hover:border-fuchsia-400"
         />
 
         <input
@@ -56,7 +56,7 @@ export default function TransactionForm({ onAdd }) {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="Descripción"
-          className="w-full p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600 hover:border-fuchsia-400"
         />
 
         <input
@@ -64,7 +64,7 @@ export default function TransactionForm({ onAdd }) {
           value={category}
           onChange={(e) => setCategory(e.target.value)}
           placeholder="Categoría"
-          className="w-full p-2 border rounded border-violet-600"
+          className="w-full p-2 border rounded border-violet-600 hover:border-fuchsia-400"
         />
       </div>
 
